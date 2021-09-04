@@ -22,13 +22,17 @@ public class MainController {
         return "index";
     }
 
+    @RequestMapping
+    private String mainPage() {
+        return "index";
+    }
+
 
     @GetMapping("/customers")
     @ResponseBody
     private List<Customer> getCustomerList() {
         return customerService.getCustomerList();
     }
-
 
 
 }

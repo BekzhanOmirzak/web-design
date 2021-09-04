@@ -106,6 +106,12 @@ nav ul li a {
         left: 0;
     }
 
+    section {
+        background: url("fire-website/images/switer.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: calc(100vh - 80px);
+    }
 
 }
 
